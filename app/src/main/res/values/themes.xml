@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EFinance" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple </item>
+        <item name="colorPrimaryVariant">@color/purple_second</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/grenn</item>
+        <item name="colorSecondaryVariant">@color/grenn_second</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.EFinance" parent="Base.Theme.EFinance" />
+</resources>

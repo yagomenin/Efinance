@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#7f00b2</color>
+    <color name="purple_second">#8e22bb</color>
+    <color name="purple_third">#ab49cc</color>
+    <color name="grenn">#77dd77</color>
+    <color name="grenn_second">#a9e9a4</color>
+
+    <color name="green">#FF1B5E20</color>
+    <color name="green_dark">#FF003300</color>
+    <color name="green_light">#FFA5D6A7</color>
+    <color name="yellow">#F1E702</color>
+    <color name="yellow_second">#F5EF52</color>
+    <color name="yellow_third">#B88900</color>
+</resources>
