@@ -1,25 +1,16 @@
 package com.example.efinance
 
 import android.content.Intent
-import android.database.Cursor
 import android.os.Bundle
-import android.provider.ContactsContract.Data
-import android.util.Log
-import android.view.Menu
 import android.view.MenuItem
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.efinance.adapter.LancamentoAdapter
 import com.example.efinance.database.DatabaseHandler
 import com.example.efinance.databinding.ActivityGastosBinding
-import com.example.efinance.databinding.ActivityTelaLancamentoBinding
 import java.text.NumberFormat
-import java.util.Collections
 import java.util.Locale
 
 class GastosActivity : AppCompatActivity() {

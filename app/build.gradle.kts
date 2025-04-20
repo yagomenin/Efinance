@@ -2,7 +2,9 @@ import com.android.build.api.dsl.ViewBinding
 
 plugins {
     alias(libs.plugins.android.application)
+    id("org.jlleitschuh.gradle.ktlint") version "11.6.0"
     alias(libs.plugins.jetbrains.kotlin.android)
+
 }
 
 android {
@@ -49,6 +51,15 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
+    testImplementation(libs.androidx.core)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+}
+
+
+ktlint {
+    android.set(true)
+    outputToConsole.set(true)
+    outputColorName.set("RED")
 }
