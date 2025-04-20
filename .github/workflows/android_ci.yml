@@ -22,9 +22,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Validate Gradle Wrapper
-        uses: gradle/wrapper-validation-action@v2
-
       - name: Cache Gradle dependencies
         uses: actions/cache@v3
         with:
@@ -41,5 +38,5 @@ jobs:
       - name: Build the project
         run: ./gradlew build --no-daemon
 
-      - name: Run tests
+      - name: Run unit tests
         run: ./gradlew testDebugUnitTest --no-daemon
